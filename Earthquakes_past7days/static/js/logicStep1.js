@@ -40,23 +40,3 @@ let earthquakesPast7days = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/su
 d3.json(earthquakesPast7days).then(data => {
     L.geoJSON(data).addTo(map);
 });
-
-// // Accessing the Toronto Neighborhoods GeoJSON url
-// let torontoHoods = "https://raw.githubusercontent.com/nicoserrano/Mapping_Earthquakes/Mapping_GeoJSON_Polygons/Mapping_GeoJSON_Polygons/torontoNeighborhoods.json";
-
-// let myStyle = {
-//     color: "blue",
-//     fillColor: "yellow",
-//     weight: 1
-// }
-
-// d3.json(torontoHoods).then(function(data) {
-//     console.log(data);
-//     // Creating a GeoJSON layer with the retrieved data
-//     L.geoJSON(data, {
-//         style: myStyle,
-//         onEachFeature: function(feature, layer) {
-//             layer.bindPopup("<h3>Neighborhood: " + feature.properties.AREA_NAME + "</h3>")
-//         }
-//     }).addTo(map);
-// });
