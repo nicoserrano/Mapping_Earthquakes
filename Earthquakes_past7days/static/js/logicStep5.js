@@ -124,7 +124,7 @@ legend.onAdd = function () {
     for (let i = 0; i < magnitudes.length; i++) {
         console.log(colors[i]);
         div.innerHTML +=
-            "<i style'background: " + colors[i] + "'></i> " + magnitudes[i] + (magnitudes[i+1] ? "&ndash;" + magnitudes[i+1] + "<br>" : "+");
+            "<i style='background: " + colors[i] + "'></i> " + magnitudes[i] + (magnitudes[i+1] ? "&ndash;" + magnitudes[i+1] + "<br>" : "+");
     }
     return div;
 };
