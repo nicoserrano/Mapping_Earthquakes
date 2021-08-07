@@ -1,2 +1,2 @@
 # Mapping_Earthquakes
-#### *Working...*
+#### *Created interactive visualizations for earthquakes data using JavaScript, Leaflet, Mapbox, and HTML*
