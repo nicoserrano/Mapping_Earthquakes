@@ -1,5 +1,5 @@
 # Mapping_Earthquakes
-#### *Created interactive visualizations for earthquakes data using JavaScript, Leaflet, Mapbox, and HTML*
+#### *Created interactive visualizations for earthquake data using JavaScript, Leaflet, Mapbox, and HTML*
 
 ## Overview
 This project consisted on supporting website and mobile application development by using the latest GeoJSON data on earthquakes around the World to come up with an interactive map visualization. The goal was to traverse these GeoJSON data files using JavaScript, D3, and Leaflet to then plot the data on a mapbox map to an API request. 
