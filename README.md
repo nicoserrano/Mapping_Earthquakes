@@ -37,3 +37,12 @@ Additionally, the map included a control leyend where the user could choose from
 - Dark view with all earthquakes being displayed:
 
 ![Screen Shot 2021-08-06 at 8 33 49 PM](https://user-images.githubusercontent.com/83378141/128582185-9ee9ecda-6dad-4cb2-bef3-c4a2fe09f918.png)
+
+
+
+#
+- Contact info: 
+
+Juan Nicolas Serrano
+
+jns132@miami.edu
